@@ -8,7 +8,7 @@ import FirstComponent from './PropsDrilling/firstComponent';
 // import MountPhase from './MountPhase';
 // import ConstructorMethod from './constructor';
 // import GetDerivedStateFromPropsMethod from './getDerivedStateFromProps';
-
+import Exam from "../src/ContextAPI/Exam"
 function App() {
   return (
     <div className="App">
@@ -20,7 +20,8 @@ function App() {
       {/* <MountPhaseExample/> */}
       {/* <UpdatedPhase/> */}
       {/* <UpdatingPhaseExample/> */}
-      <FirstComponent/>
+      {/* <FirstComponent/> */}
+      <Exam/>
     </div>
   );
 }
